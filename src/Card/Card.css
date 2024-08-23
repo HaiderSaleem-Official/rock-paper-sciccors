@@ -1,0 +1,28 @@
+.card {
+  height: auto;
+  width: 2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(38, 118, 13, 0.54);
+  border: 3px solid black;
+  width: auto;
+  border-radius: 3em;
+  cursor: pointer;
+  .img {
+    width: 6em;
+    height: 6em;
+  }
+ 
+}
+
+.card:hover{
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  border: 3px solid green;
+  
+}
+
+
+
